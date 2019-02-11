@@ -1,0 +1,11 @@
+html, body {
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+  width: 100%;
+  background: #f0f0f0;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 90pt;
+  font-weight: 900;
+}

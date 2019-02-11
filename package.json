@@ -1,0 +1,30 @@
+{
+  "name": "asher.fyi",
+  "version": "0.0.1",
+  "description": "http://asher.fyi",
+  "main": "gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-serve": "^1.4.0",
+    "gulp-watch": "^4.3.8",
+    "gulp-webserver": "^0.9.1"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsherPeruscini/asher.fyi.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Asher Peruscini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AsherPeruscini/asher.fyi/issues"
+  },
+  "homepage": "https://github.com/AsherPeruscini/asher.fyi#readme"
+}
