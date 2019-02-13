@@ -1,11 +1,56 @@
 html, body {
-  font-family: 'Raleway', sans-serif;
-  height: 100%;
-  width: 100%;
-  background: #f0f0f0;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    width: 100%;
+    background: #f0f0f0;
 }
+
 h1 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 90pt;
-  font-weight: 900;
+    font-family: 'Dancing Script', cursive;
+    font-size: 90pt;
+    font-weight: 900;
+}
+
+header {
+    height: 30%;
+    min-height: 300px;
+    background-color: #08AEEA;
+    background-image: -webkit-linear-gradient(bottom right, #08AEEA 0%, #2AF598 100%);
+    background-image: -o-linear-gradient(bottom right, #08AEEA 0%, #2AF598 100%);
+    background-image: linear-gradient(to top left, #08AEEA 0%, #2AF598 100%);
+}
+
+.flex {
+	display: flex;
+	flex-flow: column;
+    /* display: inline-flex; */
+    vertical-align: middle;
+	height: 100%;
+}
+
+textarea {
+    width: 100%;
+    min-height: 400pt;
+    height: 100%;
+    background: #ccc;
+    color: #3b3b3b;
+    border: none;
+    border-radius: 6pt;
+    padding: 15pt;
+    outline: none;
+    font-size: 13pt;
+}
+
+.material-icons {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.btnCons {
+    padding: 7pt;
+    width: 125pt;
+}
+
+.cssArea {
+    padding: 10pt;
 }
