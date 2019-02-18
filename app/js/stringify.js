@@ -1,4 +1,4 @@
-import stringifyRule from 'https://unpkg.com/stringify-css-rule/index.js'
+import stringifyRule from '/app/js/stringifyRule.js'
 
 export default function(stylesheet) {
     return stylesheet.cssRules ?

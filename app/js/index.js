@@ -1,6 +1,6 @@
-import parseStylesheet from "parse.js"
-import processRules from "process.js"
-import stringifyStylesheet from "stringify.js"
+import parseStylesheet from "/app/js/parse.js"
+import processRules from "/app/js/process.js"
+import stringifyStylesheet from "/app/js/stringify.js"
 
 function render() {
     let input = document.querySelector("#input")
